@@ -327,7 +327,8 @@ a {
   margin-right: 0px;
 }
 
-.container.portfolio {
+.container.portfolio,
+.container.team {
   padding-bottom: 94px;
 }
 .buttons .item + .item {

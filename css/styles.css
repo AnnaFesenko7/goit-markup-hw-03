@@ -214,8 +214,14 @@ img {
 }
 
 .team-member {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team {
+  background-color: var(--buttons-color);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .section-list .text {
@@ -240,6 +246,11 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-auth:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -254,6 +265,7 @@ footer .logo {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--extra-title-color);
+  margin-bottom: 9px;
 }
 
 address {
@@ -275,6 +287,7 @@ address {
   padding: 6px 12px;
 
   border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -335,7 +348,6 @@ a {
   flex-basis: calc(100% / 3-30px);
   margin-left: 30px;
   margin-top: 30px;
-  padding-bottom: 20px;
 }
 
 .project {
@@ -343,9 +355,9 @@ a {
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 3px solid var(--buttons-color);
-  border-left: 3px solid var(--buttons-color);
-  border-right: 3px solid var(--buttons-color);
+  border-bottom: 1px solid var(--buttons-color);
+  border-left: 1px solid var(--buttons-color);
+  border-right: 1px solid var(--buttons-color);
 }
 
 .buttons .item + .item {
